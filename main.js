@@ -1,6 +1,6 @@
 var map = L.map('map').setView([55.5, 37.2], 13)
 
-$.getJSON('/poly.geojson', data => {
+$.getJSON('/ptichnoe/poly.geojson', data => {
     var geo = L.geoJson(data).addTo(map)
 })
 
