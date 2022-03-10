@@ -9,7 +9,7 @@
 }
 ```
 
-## [GET] devices/check&ip
+## [GET] devices/check?ip=ip
 
 >Проверка связи с платой
 
