@@ -102,6 +102,21 @@ Params:
 
 Пагинация и сортировка
 
+Ответ:
+```
+{
+    id: Number,
+    city: String,
+    ctType: String,
+    guid: Number,
+    owner: String,
+}
+```
+
 ## [GET] constructions/count
 
 > Общее кол-во конструкций
+
+## [GET] constructions/_id
+
+> Детализация конструкции
