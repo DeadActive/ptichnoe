@@ -2,18 +2,18 @@
 
 >Добавление платы
 
-```json
+```
 {
     gid: 'ID конструкции',
     ip: 'ip адресс платы'
 }
 ```
 
-## [POST] devices/check
+## [GET] devices/check&id=_id
 
 >Проверка связи с платой
 
-```json
+```
 {
     ip: 'ip адресс платы'
 }
@@ -24,7 +24,7 @@
 >Список плат
 
 Ответ:
-```json
+```
 {
     id: Number,
     city: String,
@@ -74,7 +74,7 @@ Params:
 
 Ответ:
 
-```json
+```
 {
     id: Number,
     city: String,
